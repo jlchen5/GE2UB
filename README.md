@@ -10,6 +10,8 @@ First, we need to prepare data, including gene expression data and known protein
 
 The file format is as follows.
 
+**GSE76005_expression.csv:**
+
 - The first row is the table header, including the sample number and gene name. 
 - The first column is the sample number. 
 - Subsequent columns contain the gene name, and each column contains the expression level of that gene in each sample. 
@@ -19,6 +21,8 @@ The file format is as follows.
 | :-----| :----: | :----: |
 | Sample1 | 0.9 | 1.1 |
 | Sample2 | 1.0 | 0.5 |
+
+**GSE76005_ubiquitination.csv:**
 
 - The first row is the table header, including the sample number and protein name. 
 - The first column is the sample number. 
